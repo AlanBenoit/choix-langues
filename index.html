@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Choix de langue</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .lang-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .lang-buttons a {
+      text-decoration: none;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: white;
+      border-radius: 8px;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease;
+    }
+
+    .lang-buttons a:hover {
+      background-color: #0056b3;
+    }
+
+    @media (min-width: 600px) {
+      .lang-buttons {
+        flex-direction: row;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>👋 Bienvenue – Ongi etorri – Bienvenidos<br>
+  Choisissez votre langue</h1>
+
+  <div class="lang-buttons">
+    <a href="https://sites.google.com/view/tonsite-fr">🇫🇷 Français</a>
+    <a href="https://sites.google.com/view/tonsite-es">🇪🇸 Español</a>
+    <a href="https://sites.google.com/view/tonsite-eu">🇧🇶 Euskara</a>
+  </div>
+
+</body>
+</html>
